@@ -168,7 +168,6 @@ int createSysVSemaphore()
         printf("created semaphore\n");
         //initialize semaphore
         arg.val = 1;
-        sleep(100000);
         if (semctl (sem, 0, SETVAL, arg) == -1) 
         {
             printf("semctl err\n");
