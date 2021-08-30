@@ -105,14 +105,8 @@ void main()
             continue;
         }
         */
-    }
-
-    
-    sleep(100);
-    
-    
+    }   
 }
-
 
 int createSysVSemaphore()
 {
@@ -233,5 +227,3 @@ void removeOnRestart()
         }
     }
 }
-
-
